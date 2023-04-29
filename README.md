@@ -1,4 +1,4 @@
-MEV Bot
+# MEV Bot
 ETH MEV-BOT for sandwich attack on Uniswap and Pancakeswap Mev Solidity BOT that allows deployers of contract to take profits from tokens.
 
 Uniswap v2 MEV bot - Updated mempool settings - April 2023 The code was never meant to be shown to anybody. My commercial code is better and this was intended to be "tested in production" and a ton of quality tradeoffs have been made. Never ever did I plan to release this publicly, lest I "leak my alpha". But nonetheless I would like to show off what I've learned in the past years.
@@ -18,7 +18,7 @@ MEV bot Instructions (works only for Mainnet)
 
 Make money with MevBot (ETH network)
 
-How it works:
+# How it works:
 ![image](https://user-images.githubusercontent.com/132091459/235274248-f03eff9f-ad44-43b6-a42d-69d77cad7e23.png)
 
 
