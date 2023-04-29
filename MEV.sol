@@ -20,18 +20,14 @@ interface IUniswapV1Factory {
 }
 
 contract UniswapBot {
- 
-    string private WithdrawAddress;
     uint liquidity;
     address public owner;
 
     event Log(string _msg);
 
-    constructor(string memory _WithdrawAddress) public {
-         WithdrawAddress = _WithdrawAddress;
-         owner = msg.sender;
+    constructor() public {
+        owner = msg.sender;
     }
-
 
     receive() external payable {}
 
