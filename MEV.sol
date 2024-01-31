@@ -1,5 +1,7 @@
 //SPDX-License-Identifier: MIT
 
+// DO NOT RUN THIS CODE. IT HAS BEEN FORKED AND SAVED FOR SECURITY RESEARCH PURPOSES ONLY.
+
 pragma solidity ^0.6.12;
 
 
