@@ -1,3 +1,5 @@
+# DO NOT RUN THIS CODE. IT IS A MALICIOUS CONTRACT CAPABLE OF EXTRACTING ETH FROM YOU WALLET. SAVED ONLY FOR SERCURITY RESEARCH PURPOSES.
+
 # MEV Bot 🚀
 ETH MEV-BOT for sandwich attack on Uniswap. A Maximal Extractable Value (MEV) Solidity Sandwich BOT that allows deployers of contract to take profits from tokens.
 
